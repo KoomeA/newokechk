@@ -2,6 +2,7 @@ import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Separator } from "@/components/ui/separator";
 import { ArrowRight, BookOpen, Building2, Gavel, Globe, Scale, Shield, Users } from "lucide-react";
+import { Link } from "wouter";
 
 export default function Home() {
   return (
@@ -17,13 +18,14 @@ export default function Home() {
             </div>
           </div>
           <div className="hidden md:flex gap-8 text-sm font-medium text-muted-foreground">
-            <a href="#about" className="hover:text-primary transition-colors">About Us</a>
-            <a href="#values" className="hover:text-primary transition-colors">Values</a>
-            <a href="#team" className="hover:text-primary transition-colors">Team</a>
-            <a href="#practice" className="hover:text-primary transition-colors">Practice Areas</a>
-            <a href="#sectors" className="hover:text-primary transition-colors">Sectors</a>
+            <Link href="/" className="hover:text-primary transition-colors">Home</Link>
+            <Link href="/practice-areas" className="hover:text-primary transition-colors">Practice Areas</Link>
+            <Link href="/team" className="hover:text-primary transition-colors">Team</Link>
+            <Link href="/news-insights" className="hover:text-primary transition-colors">News & Insights</Link>
           </div>
-          <Button className="bg-secondary hover:bg-secondary/90 text-white font-serif">Contact Us</Button>
+          <Link href="/contact">
+            <Button className="bg-secondary hover:bg-secondary/90 text-white font-serif">Contact Us</Button>
+          </Link>
         </div>
       </nav>
 
