@@ -4,8 +4,9 @@ import NotFound from "@/pages/NotFound";
 import { Route, Switch } from "wouter";
 import ErrorBoundary from "./components/ErrorBoundary";
 import { ThemeProvider } from "./contexts/ThemeContext";
-import Contact from "./pages/Contact";
+import WhatsAppButton from "./components/WhatsAppButton";
 import Home from "./pages/Home";
+import Contact from "./pages/Contact";
 import NewsInsights from "./pages/NewsInsights";
 import PracticeAreas from "./pages/PracticeAreas";
 import Team from "./pages/Team";
@@ -40,6 +41,7 @@ function App() {
       >
         <TooltipProvider>
           <Toaster />
+          <WhatsAppButton />
           <Router />
         </TooltipProvider>
       </ThemeProvider>
