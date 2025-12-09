@@ -6,7 +6,31 @@ import { Link } from "wouter";
 
 export default function PracticeAreas() {
   return (
-    <div className="min-h-screen bg-background">
+    <div className="min-h-screen bg-background font-sans selection:bg-secondary selection:text-secondary-foreground pt-20">
+      {/* Navigation */}
+      <nav className="fixed top-0 z-50 w-full border-b bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
+        <div className="container flex h-20 items-center justify-between">
+          <Link href="/">
+            <div className="flex items-center gap-2 cursor-pointer">
+              <img src="/images/logo_final.png" alt="Okech K & Co Advocates Logo" className="h-12 w-auto" />
+              <div className="hidden md:block">
+                <h1 className="text-xl font-serif font-bold tracking-tight text-primary">OKECH K & CO</h1>
+                <p className="text-xs tracking-widest text-muted-foreground uppercase">Advocates</p>
+              </div>
+            </div>
+          </Link>
+          <div className="hidden md:flex gap-8 text-sm font-medium text-muted-foreground">
+            <Link href="/" className="hover:text-primary transition-colors">Home</Link>
+            <Link href="/practice-areas" className="text-primary font-bold">Practice Areas</Link>
+            <Link href="/team" className="hover:text-primary transition-colors">Team</Link>
+            <Link href="/news-insights" className="hover:text-primary transition-colors">News & Insights</Link>
+          </div>
+          <Link href="/contact">
+            <Button className="bg-secondary hover:bg-secondary/90 text-white font-serif">Contact Us</Button>
+          </Link>
+        </div>
+      </nav>
+
       {/* Hero Section */}
       <section className="relative py-20 bg-primary text-primary-foreground overflow-hidden">
         <div className="absolute inset-0 z-0 opacity-10">
