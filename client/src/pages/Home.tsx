@@ -1,7 +1,7 @@
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Separator } from "@/components/ui/separator";
-import { ArrowRight, BookOpen, Building2, Gavel, Globe, Scale, Shield, Users } from "lucide-react";
+import { ArrowRight, BookOpen, Building2, Download, Gavel, Globe, Scale, Shield, Users } from "lucide-react";
 import { Link } from "wouter";
 
 export default function Home() {
@@ -54,8 +54,13 @@ export default function Home() {
             <Button size="lg" className="bg-primary text-primary-foreground hover:bg-primary/90 h-14 px-8 text-lg font-serif">
               Our Expertise
             </Button>
-            <Button size="lg" variant="outline" className="border-primary text-primary hover:bg-primary/5 h-14 px-8 text-lg font-serif">
-              Meet the Team
+            <Button size="lg" variant="outline" className="border-primary text-primary hover:bg-primary/5 h-14 px-8 text-lg font-serif" asChild>
+              <Link href="/team">Meet the Team</Link>
+            </Button>
+            <Button size="lg" variant="outline" className="border-secondary text-secondary hover:bg-secondary/5 h-14 px-8 text-lg font-serif gap-2" asChild>
+              <a href="/Okech_K_and_Co_Advocates_Profile.pdf" download>
+                <Download className="w-5 h-5" /> Download Profile
+              </a>
             </Button>
           </div>
         </div>
