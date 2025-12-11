@@ -253,7 +253,7 @@ export default function Home() {
                 <div className="aspect-[3/4] bg-muted w-full relative overflow-hidden shadow-lg">
                   {/* Placeholder for Partner Image - using generic professional image for now */}
                   <img 
-                    src="/images/team_collaboration.jpg" 
+                    src="/images/kennedy.jpeg" 
                     alt="Okech Kennedy" 
                     className="w-full h-full object-cover"
                   />
