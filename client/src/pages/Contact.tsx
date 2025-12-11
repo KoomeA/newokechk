@@ -80,9 +80,10 @@ export default function Contact() {
                   <div>
                     <h3 className="font-serif font-bold text-lg text-primary mb-1">Our Office</h3>
                     <p className="text-muted-foreground">
-                      5th Floor, Corporate Tower<br />
-                      Upper Hill Road, Nairobi<br />
-                      Kenya
+                      Pamstech House, 5th Floor 
+                      Along Woodvale Groove Westlands.
+                      P.O. Box 2196-00606
+                      Sarit Centre Nairobi
                     </p>
                   </div>
                 </div>
@@ -94,8 +95,8 @@ export default function Contact() {
                   <div>
                     <h3 className="font-serif font-bold text-lg text-primary mb-1">Phone</h3>
                     <p className="text-muted-foreground">
-                      +254 700 000 000<br />
-                      +254 20 000 0000
+                      +254722 225 225<br />
+                      +254722 666 333
                     </p>
                   </div>
                 </div>
@@ -107,8 +108,8 @@ export default function Contact() {
                   <div>
                     <h3 className="font-serif font-bold text-lg text-primary mb-1">Email</h3>
                     <p className="text-muted-foreground">
-                      info@okechadvocates.com<br />
-                      consult@okechadvocates.com
+                      litigation@okechk.co.ke<br />
+                      info@okechkadvocates.com
                     </p>
                   </div>
                 </div>

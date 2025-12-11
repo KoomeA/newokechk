@@ -435,8 +435,8 @@ export default function Home() {
               <h4 className="font-serif font-bold text-lg mb-6">Contact</h4>
               <ul className="space-y-4 text-muted-foreground">
                 <li>Nairobi, Kenya</li>
-                <li>info@okechadvocates.com</li>
-                <li>+254 700 000 000</li>
+                <li>litigation@okechk.co.ke</li>
+                <li>+254722225225 | 254722666333</li>
               </ul>
             </div>
             
