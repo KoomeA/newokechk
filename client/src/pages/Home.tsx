@@ -149,6 +149,10 @@ export default function Home() {
             
             <p className="text-lg text-muted-foreground leading-relaxed">
               Okech K & Co Advocates is a progressive, full-service law firm based in Nairobi, Kenya. In a legal landscape often characterized by opacity and delay, our firm distinguishes itself through a commitment to speed, discretion, and value-addition.
+              In a legal landscape often characterized by opacity and delay, our firm distinguishes itself through a commitment to speed, discretion, and value-addition. We do not merely offer legal opinions; we provide strategic business solutions that mitigate risk and facilitate growth.
+            </p>
+            <p>
+              Founded by Okech Kennedy, an advocate with extensive experience in corporate and commercial law, our firm leverages deep industry knowledge to serve a diverse clientele ranging from startups to multinational corporations. Our approach is rooted in understanding the unique challenges faced by businesses today, allowing us to tailor our services to meet specific needs effectively.
             </p>
             
             <div className="grid gap-6">
@@ -270,10 +274,9 @@ export default function Home() {
                 
                 <div className="prose prose-lg text-muted-foreground">
                   <p>
-                    When we established this firm, our vision was clear: to build a legal practice that bridges the gap between rigid legal theory and the dynamic needs of modern business. In a world where regulatory frameworks are constantly shifting, clients need a partner who can navigate the storm.
-                  </p>
-                  <p>
-                    My partner, Julius M. Kimulu, and I have cultivated a culture of rigorous analysis and precision. Whether we are advising a startup on intellectual property or defending a multinational corporation in court, our advice is always honest, direct, and geared towards your long-term success.
+                    Welcome to Okech K & Co Advocates. When we established this firm, our vision was clear: to build a legal practice that bridges the gap between rigid legal theory and the dynamic needs of modern business. Our firm is built on a foundation of Technical Excellence. We understand that in high-stakes transactions and litigation, details matter. This is why we have cultivated a culture of rigorous analysis and precision. We do not just handle files; we engineer solutions. We are also deeply committed to Integrity. In an industry where trust is paramount, we pledge total transparency. Whether we are advising a startup on intellectual property or defending a multinational corporation in court, our advice is always honest, direct, and geared towards your long-term success. 
+                    Sincerely, 
+                    Okech Kennedy | Founding Partner
                   </p>
                 </div>
 
