@@ -21,7 +21,7 @@ export default function NewsInsights() {
       category: "Employment Law",
       date: "September 28, 2024",
       readTime: "7 min read",
-      author: "Julius M. Kimulu",
+      author: "Okech Kennedy",
       image: "/images/team_collaboration.jpg"
     },
     {
